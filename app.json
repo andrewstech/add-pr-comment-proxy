@@ -11,5 +11,5 @@
     "GITHUB_TOKEN": {
       "description": "Github personal access token.",
       "generator": "secret"
-    },
+      }
 }  
