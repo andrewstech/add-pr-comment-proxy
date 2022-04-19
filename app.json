@@ -1,15 +1,16 @@
 {
-  "name": "Comment proxy",
-  "description": "Github tokens on forked repo",
-  "keywords": [
-    "productivity",
-    "actions"
-  ],
-  "website": "https://github.com/andrewstech/add-pr-comment-proxy/",
-  "repository": "https://github.com/andrewstech/add-pr-comment-proxy",
-  "env": {
-    "GITHUB_TOKEN": {
-      "description": "Github personal access token.",
-      "generator": "secret"
-      }
-}  
+	"name": "Comment proxy",
+	"description": "Github tokens on forked repo",
+	"keywords": [
+		"productivity",
+		"actions"
+	],
+	"website": "https://github.com/andrewstech/add-pr-comment-proxy/",
+	"repository": "https://github.com/andrewstech/add-pr-comment-proxy",
+	"env": {
+		"GITHUB_TOKEN": {
+			"description": "Github personal access token.",
+			"generator": "secret"
+		}
+	}
+}
