@@ -12,6 +12,10 @@ A simple proxy for PR comments. Works well with [add-pr-comment](https://github.
 
 [![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
 
+**Run on Heroku**
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ## How it works
 
 This app is a thin Node.js proxy around the [create an issue comment](https://docs.github.com/en/rest/reference/issues#create-an-issue-comment) GitHub endpoint that allows you to send requests with a GitHub Action's [temporary token](https://docs.github.com/en/actions/configuring-and-managing-workflows/authenticating-with-the-github_token#about-the-github_token-secret) and create issue comments. It verifies that your request has a valid temporary token, but it's difficult to ensure any more than that. A shared secret cannot be used as GitHub will strip it when the fork's Actions run.
