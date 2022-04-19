@@ -1,9 +1,15 @@
 {
-  "name": "add-pr-comment-proxy",
+  "name": "Comment proxy",
+  "description": "Github tokens on forked repo",
+  "keywords": [
+    "productivity",
+    "actions"
+  ],
+  "website": "https://github.com/andrewstech/add-pr-comment-proxy/",
+  "repository": "https://github.com/andrewstech/add-pr-comment-proxy",
   "env": {
     "GITHUB_TOKEN": {
-      "description": "Provide a GitHub personal access token with the repo:public_repo scope",
-      "required": true
-    }
-  }
-}
+      "description": "Github personal access token.",
+      "generator": "secret"
+    },
+}  
